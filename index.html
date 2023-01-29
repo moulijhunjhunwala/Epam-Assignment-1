@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="container">
+        <div id="content" role="main">
+          <img src="logo.png">
+          <h1 id="home">HTML Elements</h1>
+          <hr>
+          <a href="#home" id="home1" style="margin:8px">Home </a>
+          <a href="#Headers" id="101" style="margin:8px"> Headers</a>
+          <a href="#Table" id="102" style="margin:8px">Table</a>
+          <a href="#List" id="103" style="margin:8px">List</a>
+          <a href="#text" id="104" style="margin:8px">Text formats</a>
+          <a href="#block" id="105" style="margin:8px">Blockquotes</a>
+
+          <hr>
+
+          <p>Pay attention to h1 tag inside section element.Font-size for h1 is the same as font-size for h2,because we have to
+          use only one h1 on the page, and it is commonly used inside header</p>
+
+
+           <h2 id="Headers">Header 2</h2>
+
+           <h3>Header 3</h3>
+
+           <h4>Header 4</h4>
+         
+           <h5>Header 5</h5>
+         
+           <h6>Header 6</h6>
+           <hr>
+
+
+           <p>Lorem ipsum dolor sit amet, <a href="#home">test link</a> adipisicing elit.<strong>This is
+            strong.</strong>Nullam dignissim convallis est.Quisque aqliquam . This is emphasized.Donec faucibus.Nunc iaculis
+            suscipit dui.5<sup>3</sup>= 125.Water is H<sub>2</sub>O.Nam sit amet sem aliquam libero nisi,imperdiet at,tincidunt
+            nec,gravida vehicula, nisl.The New York Times(that's a citation).<u>underline</u>. Maecenas ornare tortor . Donec
+            sed tellus eget sapien fringilla nonummy. Mauris a ante . Suspendisse quam sem,consequant at,commodo vitae,feugiat
+            in,nunc.morbi imperdiet augue quis tellus.</p>
+
+
+            <p>HTML and CSS are our tools.Mauris a ante.Suspendisse quam sem , consequant at,commodo vitae,feugiat in,nunc. Morbi
+              imperdiet augue quis tellus.Praesent mattis,massa quis luctus fermentum,turpis mi volutpat justo,eu volutpat enim
+              diam eget metus.To copy a file type COPY <i> filename</i>.<strike>Dinner's at 5:00.</strike> <span>let's make at 7
+              </span>. This<strike> text</strike> has been struck.
+            </p>
+            <hr>
+            <h2 id="Table">Table</h2>
+
+          
+            <table>
+              <tr>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th>
+          
+              </tr>
+              <tr>
+          
+                <td>Lviv</td>
+                <td>Kyiv</td>
+                <td>kharkiv</td>
+
+              </tr>
+              <tr>
+          
+                <td>Odessa</td>
+                <td>Zhytomyr</td>
+                <td>Dnipropetrovsk</td>
+
+              </tr>
+              <tr>
+                <td>Sumy</td>
+                <td>chernivtsi</td>
+                <td>Lutsk</td>
+          
+              </tr>
+            </table>
+            <br>
+            <h2 id="List">Unordered List</h2>
+
+
+            <ul type="square">
+              <li>List item 1</li>
+              <li>list item 2</li>
+              <ul type="square">
+                <li>Some nested list item 1</li>
+              </ul>
+              <li>List item 3</li>
+            </ul>
+
+            <h2>Ordered List</h2>
+
+            <ol type="1">
+              <li>List item 1</li>
+              <li>list item 2</li>
+              <ol typr="square>">
+                <li>Some nested list item 1</li>
+              </ol>
+
+              <li>List item 3</li>
+            </ol>
+          
+            <h3>Defition List</h3>
+            <dl>
+            <dt><b>defines terms 1</b></dt>
+            <dd>description 1</dd>
+
+
+            <dt><b>defines terms 2</b></dt>
+            <dd>description 2</dd>
+            </dl>
+            Details<select name="course">
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option>
+            </select>
+            <hr>
+            <h2 id="text">Text formats</h2>
+            <p>Article Text</p>
+            <h3>Article title</h3>
+
+            <p>article description</p>
+            <h3>Preformatted Text</h3>
+            <div id="box1">
+              <pre>
+Text  
+in a pre element 
+is displayed in a fixed-width 
+font, and it preserves
+both           spaces and 
+line breaks
+             </pre>
+
+            </div>
+            <p>Code</p>
+            <div id="box2">
+              <pre>
+            .wrapper {
+              display: flex;
+              verticle-align: middle;
+              justify-content: center;
+            }
+            </pre>
+            </div>
+ <h2 id="block">Blockquotes</h2>
+
+  Lets keep it simple. Italics are good to help set it off from the body text. Be sure to style the ciation.<br>
+  <blockquote><i>"If you go back a few hundred years,what we take for granted today would seem like
+      magic-being able to talk to people over long distances , to transmit images,flying,accessing vast amounts of data
+      like an oracle.These are all things that would have been considered magic a few hundred years ago."<br>
+      <a href="#block">Elon Musk</a></i></blockquote>
+  </pre>
+  <hr><br>
+  <div>
+    <div class="form">
+      <form>
+        <div>First name:<input type="text"></div>
+        <div>Surname:<input type="text"></div>
+        <div>Email:<input type="email"></div>
+        <textarea name="feedback" rows="10" ></textarea>
+        <button type="submit" style="
+        display: block;
+        margin-left: auto;
+    ">Submit</button>
+      </form>
+    </div>
+
+    <footer>
+      &copy; Copyright Epam System
+    </footer>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
